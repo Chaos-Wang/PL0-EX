@@ -1,0 +1,28 @@
+const true=1, false=0;
+var i, j, k;
+procedure recttri;
+
+var temp1, temp2, temp3;
+    begin
+         write ( i );
+         write (j);
+         write(k);
+         temp2:=j*j;
+         temp3:=k*k;
+         do while
+            begin
+                write(false);
+                i:=i+1;
+		        temp1:=i*i;
+            end;
+         until temp1+temp2 #temp3;
+         write(true);
+        end;
+
+begin
+i:=3;
+j:=8;
+k:=10;
+call recttri;
+write(i);
+end.

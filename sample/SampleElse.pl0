@@ -1,0 +1,10 @@
+var i;
+
+begin
+    i:=1;
+    if i>1 then
+        write(i);
+    else
+        write(i+10);
+end.
+
